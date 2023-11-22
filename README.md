@@ -32,7 +32,7 @@
 ## 잠금 추가 : 
 <img width="617" alt="image" src="https://github.com/ori0o0p/Pessimistic-Lock/assets/107746917/dec0e1ce-aac3-4174-8a59-85aaa7a590ec">
 
-레포지토리에 `@Lock(LockModeType.*PESSIMISTIC_WRITE*)` 어노테이션을 추가하면 된다.
+레포지토리에 `@Lock(LockModeType.PESSIMISTIC_WRITE)` 어노테이션을 추가하면 된다.
 - 잠금이 해제될 때까지 다른 트랜잭션이 동일한 레코드에 동시에 쓰는 것을 방지하는 어노테이션
 
 이제 락을 건 상태에서 API 동시 요청을 보내보면?
