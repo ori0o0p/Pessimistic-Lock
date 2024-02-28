@@ -10,7 +10,7 @@
 상품의 기본값은 10000원이다. 
 
 락을 걸지 않은 위의 프로젝트에 API 동시 요청을 보내보면? 
-- 상품의 가격에서 -1000을 더하는 API
+- 상품의 가격에서 -1000를 하는 API
 <img width="1319" alt="image" src="https://github.com/ori0o0p/Pessimistic-Lock/assets/107746917/6f0c50c7-f7cf-4c45-8dd9-e8dd6fd94945">
 5번의 API 요청을 보냈으니 현재 상품의 값은 5000원이라 예상된다.
 
